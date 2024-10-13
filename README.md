@@ -1,15 +1,15 @@
 # Terraform lab
 
-This lab work us through how to setup custom VPC and all its components 
+This lab work us through how to setup custom VPC and all its components using IAC and the tools is Terraform
 ## prerequisite
 -   AWS active account
--   AWS CLI configuration 
+-   AWS CLI configured local machine 
 -   Terraform configured local machine
 -   Access to terraform registry
 
 ## procedures
 1. Create a folder, inside this folder, create these files: main.tf and provider.tf 
-2. Search for provider block in terraform registry to create a provider block of code, in this code, define the region where your resources will be deployed and ofcourse, the provider, in tjis case, AWS 
+2. Search for provider block in terraform registry [here](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) to create a provider block of code, in this code, define the region where your resources will be deployed and ofcourse, the provider, in this case, AWS 
 ![](/img/01-provider.png)
 3. search for below blocks
     - aws_vpc
@@ -35,11 +35,11 @@ This lab work us through how to setup custom VPC and all its components
 ![](/img/07-eip.png)
 10. Now is for the public route table
 ![](/img/08-pub-rt.png)
-11. the public route table association 
+11. the public route table association that will make the public subnets public 
 ![](/img/09-pub-rt-asso.png)
 12. Next is the private route table 
 ![](/img/10-pri-rt.png)
-13. Then the private route table association
+13. Then the private route table association that will make the assumed private subnet private
 ![](/img/11-pri-rt-asso.png)
 14. Create the security group
 ![](/img/12-sg.png)
