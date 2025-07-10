@@ -1,0 +1,4 @@
+# files not to push to GitHub
+terraform.**
+*.terraform.**
+*key**
