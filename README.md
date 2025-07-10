@@ -1,4 +1,4 @@
-# Terraform lab
+# Understanding Terraform
 
 This lab work us through how to setup custom VPC and all its components using IAC and the tools is Terraform
 ## prerequisite
