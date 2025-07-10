@@ -81,10 +81,7 @@ Screenshots showing resource steps can be found in `/img` folder
 
 
 ## Future Improvements
-Refactor to modules for better reuse
-
-Add outputs.tf for better observability
-
-Integrate remote backend for state management
-
-CI/CD pipeline for Terraform using GitHub Actions
+- Refactor to modules for better reuse
+- Add outputs.tf for better observability
+- Integrate remote backend for state management
+- CI/CD pipeline for Terraform using GitHub Actions
